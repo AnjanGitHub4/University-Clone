@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidyasagar University</title>
+    <!-- bst5 css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fav-icon -->
+        <link rel="shortcut icon" href="./images/icons/vu_logo.ico" type="image/x-icon">
+        <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- customize style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="vu-header shadow-sm bg-dark">
+            <div class="container text-center p-3">
+                <div class="vu-logo">
+                    <picture>
+                        <img src="./images/vu_logo.png" class="img-fluid" alt="vu logo">
+                    </picture>
+                </div>
+                <div class="vu-header__title">
+                    <h1 class="text-dark text-uppercase">vidyasagar university</h1>
+                    <a href="index.html" class="">University Home Page</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="vu-login-bottom-page shadow mt-5 bg-light">
+            <div class="container">
+                <h2 class="py-3 text-center text-primary">Login Me</h2>
+                <hr/>
+                <div class="row g-0 backdrop-filter row-items-center">
+                    <div class="col-sm-12 col-md-6 col-lg-5 col-12 text-center">
+                        <img src="./images/login-logo.png" class="login-img img-fluid" alt="login logo">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-7 form d-flex justify-content-center align-items-center">
+                        <form action="#">
+                            <div class="form-group row">
+                                <label for="userId">User-Id</label>
+                                <div class="col">
+                                    <input type="text" name="userId" id="userId" class="form-control" placeholder="enter your valid user-id" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="password">Password</label>
+                                <div class="col">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="enter your valid password" required>
+                                    <div class="inp-group">
+                                        <input type="checkbox" name="remember-pswd" id="remember-pswd" checked> <span class="show-me">Remember Me</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="submit" class="btn btn-primary my-2" value="Login" />
+                            <p class="text-white have-account">Do you have an account? <a href="#" class="text-danger fw-bold sign-up-link">Sign Up</a> please.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="vu-footer-main bg-dark mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-lg-4 text-light footer-contacts pl-0">
+                        <h5>Contact Details</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>Vidyasagar University, Midnapore, Dist - Paschim Medinipur, West Bengal, India, Midnapore-721102</li>
+                            <li><i class="fa-solid fa-phone"></i>Phone : +91 - 3222 - 276554, 276555, 276557, 276558</li>
+                            <li><i class="fa-solid fa-fax"></i>Fax: 275329,275297</li>
+                            <li><i class="fa-regular fa-envelope"></i>vidya295@mail.vidyasagar.ac.in</li>
+                            <li><i class="fa-solid fa-globe"></i>www.vidyasagar.ac.in</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4 text-white pl-0 footer-map">
+                        <h5>Find us on Google</h5>
+                        <div class="map-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7375.918993949973!2d87.29601927493918!3d22.430550241023983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d5c9f677810cd%3A0x28ceb88fbd64b1d0!2z4Kas4Ka_4Kam4KeN4Kav4Ka-4Ka44Ka-4KaX4KawIOCmrOCmv-CmtuCnjeCmrOCmrOCmv-CmpuCnjeCmr-CmvuCmsuCmr-CmvA!5e0!3m2!1sbn!2sin!4v1521709810474" width="450" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pl-md-3 col-sm-12 col-lg-4 text-light footer-links">
+                        <h5>&nbsp;</h5>
+                        <ul>
+                            <li><a href="" class="vu-links">e Sodh Sindhu</a></li>
+                            <li><a href="" class="vu-links">e Sodh Ganga</a></li>
+                            <li><a href="" class="vu-links">NPTEL Courses</a></li>
+                            <li><a href="" class="vu-links">e-PGPathshala</a></li>
+                            <li><a href="" class="vu-links">e-Education @ CEC</a></li>
+                            <li><a href="" class="vu-links">DigiLocker</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="vu-social-icons row mt-5">
+                    <div class="col-12 icon-wrapper">
+                        <h5 class="text-white">Connect With Us</h5>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-square-facebook fa-2x"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-youtube fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <ul>
+                <li><a href="">Feedback/Suggestion for Website</a></li>
+                <li><a href=""> Disclaimer</a></li>
+                <li><a href="">Online Payment Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- bst5 js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
