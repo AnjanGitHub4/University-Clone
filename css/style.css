@@ -19,6 +19,7 @@
     --btn-color: #309c44;
     --icon-color: #c0c0d5;
     --color-red: rgb(225, 47, 47);
+    --selection-bg: #0b0716;
     --backdrop-filter-color: rgb(76, 76, 180);
     --gradient-overlay: linear-gradient(45deg, rgba(240, 249, 244, 0.5) 50%, rgba(173, 194, 220, 0.623) 50%);
     --form-gradient-color: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
@@ -29,6 +30,10 @@ body {
     background: var(--bg-light-white);
     margin: 0;
     padding: 0;
+}
+::selection {
+    color: var(--btn-color);
+    background-color: var(--selection-bg);
 }
 ::-webkit-scrollbar {
     height: 12px;
