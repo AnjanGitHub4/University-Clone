@@ -265,6 +265,7 @@ footer .vu-footer-main{
     flex-wrap: wrap;
     gap: 10px;
     padding: .5rem .25rem;
+    margin-bottom: 0;
 }
 .sub-footer li a {
     color: var(--primary-white);
